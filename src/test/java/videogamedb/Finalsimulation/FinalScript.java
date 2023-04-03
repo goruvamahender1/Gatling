@@ -92,6 +92,7 @@ public class FinalScript extends Simulation{
     {
         setUp(
                 scn.injectOpen(
+
                         nothingFor(5),
                         rampUsers(USER_COUNT).during(RAMP_DURATION)
                 ).protocols(httpProtocol)
